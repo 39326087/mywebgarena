@@ -1,0 +1,79 @@
+i {
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  background: #333;
+  width: 360px;
+  height: 120px;
+  margin: 20px auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  
+  .top-header {
+    width: 100%;
+    height: 25px;
+    background: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+    h1 {
+      font-size: 14px;
+      color: white;
+      padding: 5px 0 0 10px;
+    }
+  }
+  
+  .center-header {
+    overflow: hidden;
+    clear: both;
+    
+    .profile-pic {
+      width: 60px;
+      height: 60px;
+      background: url(https://facepunch.com/image.php?u=599854&dateline=1385913354) no-repeat;
+      float: left;
+      margin: 10px;
+      border: 3px solid green;
+    }
+    
+    .profile-text {
+      float: left;
+      
+      h1 {
+        font-size: 24px;
+        color: white;
+        padding: 20px 0 0 0;
+      }
+      
+      p {
+        color: white;
+      }
+    }
+    
+    .profile-stat {
+      float: right;
+      margin: 10px 12px 0 0;
+      
+      a {
+        font-size: 12px;
+        color: yellow;
+        text-decoration: none;
+        
+      }
+      
+      a.levels {
+        display: block;
+        margin: 0 10px 0 0;
+      }
+      a.diamonds {
+        display: block;
+      }
+    }
+  }
+}
